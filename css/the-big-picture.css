@@ -1,0 +1,20 @@
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+	color: #fff;
+}
+
+.full {
+  background: url(../img/bkgd.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	background-color: #333;
+	opacity: 0.8;
+}
+
+h1.intro {
+
+}
