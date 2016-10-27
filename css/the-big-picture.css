@@ -12,9 +12,13 @@ body {
   -o-background-size: cover;
   background-size: cover;
 	background-color: #333;
-	opacity: 0.8;
+	opacity: 0.9;
 }
 
-h1.intro {
+a {
+	color: #fff;
+}
 
+a:hover {
+  color: #f1f1f1;
 }
