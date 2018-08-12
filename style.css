@@ -58,3 +58,12 @@ a:hover {
     -moz-transition: .5s;
     -webkit-transition: .5s;
 }
+
+::selection {
+  background: #222; 
+  color: #fff;
+}
+::-moz-selection {
+  background: #222; 
+  color: #fff;
+}
