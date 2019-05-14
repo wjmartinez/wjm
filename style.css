@@ -1,69 +1,24 @@
-body {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
 }
 
-.row {
-  margin-bottom: 1rem;
-}
-.row .row {
-  margin-top: 1rem;
-  margin-bottom: 0;
+.container {
+  max-width: 960px;
 }
 
-h1 {
-  font-family: "bio-sans",sans-serif;
-  font-weight: 700;
+.pricing-header {
+  max-width: 700px;
 }
 
-hr {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    border-width: 0;
-    border-top: 2px solid #222;
-    width: 40px;
-    text-align: left;
-    margin-left: 0;
+.card-deck .card {
+  min-width: 220px;
 }
 
-@media (min-width: 550px) {
-h1 {
-    font-size: 3.6rem;
-    line-height: 1.2;
-    margin-top: 18rem;
-}}
-
-h1 {
-    font-size: 3rem;
-    line-height: 1.1;
-}
-h1 {
-    margin-top: 18rem;
-    color: #222;
-    letter-spacing: -.15rem;
-}
-
-a {
-  color: #222;
-}
-
-a:hover {
-  color: #999;
-}
-
-.nav-link {
-  transition: .5s;
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-}
-
-::selection {
-  background: #222; 
-  color: #fff;
-}
-::-moz-selection {
-  background: #222; 
-  color: #fff;
+h1,h2,h3,h4,h5,h6,p {
+    font-family: "bio-sans",sans-serif;
 }
